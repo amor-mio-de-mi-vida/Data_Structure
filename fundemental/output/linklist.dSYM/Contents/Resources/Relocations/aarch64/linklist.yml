@@ -1,0 +1,14 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/yanghesen/Desktop/DS/output/linklist'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _myLinkedListCreate, symObjAddr: 0x0, symBinAddr: 0x100003B9C, symSize: 0x30 }
+  - { offsetInCU: 0x70, offset: 0x70, size: 0x8, addend: 0x0, symName: _myLinkedListCreate, symObjAddr: 0x0, symBinAddr: 0x100003B9C, symSize: 0x30 }
+  - { offsetInCU: 0x98, offset: 0x98, size: 0x8, addend: 0x0, symName: _myLinkedListGet, symObjAddr: 0x30, symBinAddr: 0x100003BCC, symSize: 0xB8 }
+  - { offsetInCU: 0xF8, offset: 0xF8, size: 0x8, addend: 0x0, symName: _myLinkedListAddAtHead, symObjAddr: 0xE8, symBinAddr: 0x100003C84, symSize: 0x54 }
+  - { offsetInCU: 0x138, offset: 0x138, size: 0x8, addend: 0x0, symName: _myLinkedListAddAtTail, symObjAddr: 0x13C, symBinAddr: 0x100003CD8, symSize: 0x80 }
+  - { offsetInCU: 0x186, offset: 0x186, size: 0x8, addend: 0x0, symName: _myLinkedListAddAtIndex, symObjAddr: 0x1BC, symBinAddr: 0x100003D58, symSize: 0xC0 }
+  - { offsetInCU: 0x1FE, offset: 0x1FE, size: 0x8, addend: 0x0, symName: _myLinkedListDeleteAtIndex, symObjAddr: 0x27C, symBinAddr: 0x100003E18, symSize: 0xE0 }
+  - { offsetInCU: 0x268, offset: 0x268, size: 0x8, addend: 0x0, symName: _myLinkedListFree, symObjAddr: 0x35C, symBinAddr: 0x100003EF8, symSize: 0x5C }
+  - { offsetInCU: 0x2A8, offset: 0x2A8, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x3B8, symBinAddr: 0x100003F54, symSize: 0x34 }
+...
