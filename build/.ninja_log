@@ -1,5 +1,0 @@
-# ninja log v5
-3	1060	1727090444701491087	CMakeFiles/generate.dir/generate.cpp.o	817bd8d3b3a7aecd
-26	7784	1727091262104293810	CMakeFiles/main.dir/main.cpp.o	e477341c11440b08
-26	8624	1727091263116420596	CMakeFiles/main.dir/utils/generate.cpp.o	5f22b30fbcdf42fc
-616	709	1727090584712996813	main	e0593f24d80b049f
