@@ -2,11 +2,7 @@
 
 void insert_sort_swap(int* array, int size) {
     for (int i = 1; i < size; i++) {
-        int j = i;
-        while (array[j] < array[j-1] && j >= 1) {
-            swap(array[j], array[j-1]);
-            j--;
-        }
+        sort_by_stride(array, size, 0, 1);
     }
 }
 

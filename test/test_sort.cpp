@@ -22,9 +22,12 @@ int main() {
         }
         // printf("input array is ");
         // print(input, size);
+
         // bubble_sort(input, array.size(), "flag");
         // select_sort(input, array.size(), "binary");
-        insert_sort(input, size, "move");
+        // insert_sort(input, size, "swap");
+        shell_sort(input, size, "knuth");
+
 
         // printf("sorted array is ");
         // print(input, size);

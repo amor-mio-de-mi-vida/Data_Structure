@@ -3,6 +3,8 @@
 
 void swap(int& a, int& b);
 
+void sort_by_stride(int* array, int size, int begin, int stride);
+
 // 冒泡排序
 void bubble_sort_simple(int* array, int size);
 void bubble_sort_flag(int* array, int size);
@@ -19,3 +21,8 @@ void insert_sort_swap(int* array, int size);
 void insert_sort_move(int* array, int size);
 void insert_sort(int* array, int size, const char* mode);
 
+// 希尔排序
+void shell_sort_simple(int* array, int size);
+void shell_sort_sequence(int* array, int size);
+void shell_sort_knuth(int* array, int size);
+void shell_sort(int* array, int size, const char* mode);
