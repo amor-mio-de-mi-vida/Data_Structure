@@ -14,3 +14,8 @@ void select_sort_simple(int* array, int size);
 void select_sort_binary(int* array, int size);
 void select_sort(int* array, int size, const char* mode);
 
+//插入排序
+void insert_sort_swap(int* array, int size);
+void insert_sort_move(int* array, int size);
+void insert_sort(int* array, int size, const char* mode);
+

@@ -7,6 +7,7 @@ int main() {
 
     srand((unsigned int)time(NULL));
     int rand = get_rand(10, 20);
+    printf("rand number is %d\n", rand);
     int size = get_rand(50, 100);
 
     int* input = (int*)malloc(sizeof(int) * size);
@@ -22,9 +23,9 @@ int main() {
         // printf("input array is ");
         // print(input, size);
         // bubble_sort(input, array.size(), "flag");
+        // select_sort(input, array.size(), "binary");
+        insert_sort(input, size, "move");
 
-        select_sort(input, array.size(), "binary");
-        
         // printf("sorted array is ");
         // print(input, size);
 

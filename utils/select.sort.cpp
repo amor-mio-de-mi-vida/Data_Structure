@@ -38,5 +38,7 @@ void select_sort(int* array, int size, const char* mode) {
         select_sort_simple(array, size);
     } else if (!strcmp(mode, "binary")) {
         select_sort_binary(array, size);
+    } else {
+        cout << "Error, not the correct mode!" << endl;
     }
 }
