@@ -27,7 +27,8 @@ int main() {
         // select_sort(input, array.size(), "binary");
         // insert_sort(input, size, "swap");
         // shell_sort(input, size, "knuth");
-        heap_sort(input, size);
+        // heap_sort(input, size);
+        quick_sort(input, size);
 
 
         // printf("sorted array is ");

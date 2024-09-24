@@ -31,3 +31,8 @@ void shell_sort(int* array, int size, const char* mode);
 void build_max_heap(int* array, int size);
 void heap_sort(int* array, int size);
 void modify_max_heap(int* array, int i, int size);
+
+// 快速排序
+void quick_sort(int* array, int size);
+void quick_sort(int* array, int start, int end); 
+int partition_diy(int* array, int start, int end);
