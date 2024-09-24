@@ -1,0 +1,10 @@
+#include "header.h"
+
+
+void swap(int& a, int& b);
+
+// 冒泡排序
+void bubble_sort_simple(int* array, int size);
+void bubble_sort_flag(int* array, int size);
+void bubble_sort_pos(int*array, int size);
+void bubble_sort(int* array, int size, const char* mode);

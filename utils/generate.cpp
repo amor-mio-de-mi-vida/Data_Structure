@@ -2,7 +2,7 @@
 #include "../include/print.h"
 
 void printHelloWorld() {
-    cout << "Hello world" << endl;
+    cout << "Hello world!" << endl;
 }
 
 int get_rand(int min, int max) {
@@ -36,7 +36,6 @@ vector<vector<int>> get_matrix(int min, int max, int m, int n) {
     }
     return result;
 }
-
 
 string get_string(const char* str, int num) {
     string result;

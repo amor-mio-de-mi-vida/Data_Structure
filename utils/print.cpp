@@ -15,3 +15,13 @@ void print(vector<int>& array) {
         }
     }
 }
+
+void print(int* array, int size) {
+    for (int i = 0; i < size; i++) {
+        if (i != size - 1) {
+            cout << array[i] << " ";
+        } else {
+            cout << array[i] << endl;
+        }
+    }
+}
