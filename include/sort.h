@@ -26,3 +26,8 @@ void shell_sort_simple(int* array, int size);
 void shell_sort_sequence(int* array, int size);
 void shell_sort_knuth(int* array, int size);
 void shell_sort(int* array, int size, const char* mode);
+
+//堆排序
+void build_max_heap(int* array, int size);
+void heap_sort(int* array, int size);
+void modify_max_heap(int* array, int i, int size);
