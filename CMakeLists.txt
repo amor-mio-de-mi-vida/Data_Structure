@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.15)
 
-add_compile_options(-std=c++11 -Wall -O2)
+add_compile_options(-std=c++11 -Wall)
 
 # set the project name
 project(main)

@@ -1,5 +1,5 @@
-#include "./include/utils.h"
-#include "./include/ds.h"
+#include "../include/utils.h"
+#include "../include/ds.h"
 
 
 int main() {
