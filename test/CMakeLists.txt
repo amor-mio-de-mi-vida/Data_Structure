@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.15)
 
 add_compile_options(-std=c++11 -Wall)
 
+set(CMAKE_BUILD_TYPE "Debug")
+
 project(test_program)
 
 aux_source_directory(../utils UTILS_LIST)

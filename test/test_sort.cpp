@@ -29,7 +29,8 @@ int main() {
         // shell_sort(input, size, "knuth");
         // heap_sort(input, size);
         // quick_sort(input, size);
-        merge_sort(input, size);
+        // merge_sort(input, size);
+        counting_sort2(input, size);
 
 
         // printf("sorted array is ");

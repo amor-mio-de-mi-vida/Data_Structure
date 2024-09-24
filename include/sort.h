@@ -41,3 +41,9 @@ int partition_diy(int* array, int start, int end);
 void merge(int* array, int start, int end, int* buffer);
 void merge_sort(int* array, int start, int end, int* buffer);
 void merge_sort(int* array, int size);
+
+
+
+// 计数排序
+void counting_sort(int* array, int size);
+void counting_sort2(int* array, int size);
