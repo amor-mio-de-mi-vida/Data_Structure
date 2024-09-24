@@ -28,7 +28,8 @@ int main() {
         // insert_sort(input, size, "swap");
         // shell_sort(input, size, "knuth");
         // heap_sort(input, size);
-        quick_sort(input, size);
+        // quick_sort(input, size);
+        merge_sort(input, size);
 
 
         // printf("sorted array is ");
