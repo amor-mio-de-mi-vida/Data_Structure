@@ -19,8 +19,15 @@ int main() {
             sort(array.begin(), array.end());
             memcpy(output, &array[0], sizeof(int) * array.size());
         }
+        // printf("input array is ");
+        // print(input, size);
+        // bubble_sort(input, array.size(), "flag");
 
-        bubble_sort(input, array.size(), "flag");
+        select_sort(input, array.size(), "binary");
+        
+        // printf("sorted array is ");
+        // print(input, size);
+
         assert_array(input, output, array.size());
     }
 
