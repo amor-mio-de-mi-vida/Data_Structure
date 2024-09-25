@@ -42,8 +42,12 @@ void merge(int* array, int start, int end, int* buffer);
 void merge_sort(int* array, int start, int end, int* buffer);
 void merge_sort(int* array, int size);
 
-
-
 // 计数排序
 void counting_sort(int* array, int size);
 void counting_sort2(int* array, int size);
+
+// 基数排序
+void radix_sort_LSD(int* array, int size);
+void radixSort(int* array, int start, int end, int position);
+void radix_sort_MSD(int* array, int size);
+void radix_sort(int* array, int size, const char* mode);

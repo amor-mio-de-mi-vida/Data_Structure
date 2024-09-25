@@ -30,7 +30,8 @@ int main() {
         // heap_sort(input, size);
         // quick_sort(input, size);
         // merge_sort(input, size);
-        counting_sort2(input, size);
+        // counting_sort2(input, size);
+        radix_sort(input, size, "MSD");
 
 
         // printf("sorted array is ");
