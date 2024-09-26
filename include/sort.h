@@ -1,5 +1,7 @@
 #include "header.h"
 
+#ifndef _SORT_H
+#define _SORT_H
 
 void swap(int& a, int& b);
 
@@ -51,3 +53,5 @@ void radix_sort_LSD(int* array, int size);
 void radixSort(int* array, int start, int end, int position);
 void radix_sort_MSD(int* array, int size);
 void radix_sort(int* array, int size, const char* mode);
+
+#endif

@@ -63,3 +63,13 @@ vector<int> get_sequence(int begin, int COUNT, bool is_shuffle) {
     }
     return ids;
 }
+
+int* vec2array(vector<int> vec) {
+    int* array = (int*)malloc(sizeof(int) * vec.size());
+    memcpy(array, &vec[0], sizeof(int) * vec.size());
+    return array;
+}
+
+vector<int> array2vec(int* array, int size) {
+    return vector<int>(array, array + size);
+}
